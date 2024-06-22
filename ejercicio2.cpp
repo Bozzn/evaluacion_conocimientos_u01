@@ -29,5 +29,6 @@ do
     cout << "Si desea finalizar el programa escriba 'exit':" << endl;
     cin >> get;
 } while (fn.compare(get) == -1);
+cout << "Gracias por usar el programa.";
     return EXIT_SUCCESS;
 }
